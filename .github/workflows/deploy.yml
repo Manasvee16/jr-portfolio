@@ -18,10 +18,10 @@ jobs:
           node-version: '16'  # Specify the Node.js version you want to use
 
       - name: Install dependencies
-        run: npm install
+        run: npm --force install
 
       - name: Build project
-        run: npm run build  # Adjust this if your project uses a different build command
+        run: npm run dev  # Adjust this if your project uses a different build command
 
       - name: Deploy to Vercel
         env:
