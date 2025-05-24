@@ -4,7 +4,7 @@ This is my personal portfolio website, showcasing my skills, projects, experienc
 
 ## 🚀 Live Demo
 
-Check out the live version here: [My Portfolio](https://jr-portfolio-5gi3ow8vy-manasvees-projects.vercel.app/)
+Check out the live version here: [My Portfolio](https://jr-portfolio-wine.vercel.app/)
 
 
 ---
