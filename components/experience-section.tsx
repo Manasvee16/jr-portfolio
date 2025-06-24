@@ -50,21 +50,20 @@ export function ExperienceSection() {
 
             <div className="ml-16 md:ml-0 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-purple-500/50 transition-all duration-300">
               <div className="flex flex-wrap gap-3 mb-4">
-                <Badge className="bg-gradient-to-r from-purple-500 to-pink-500 text-white">Upcoming</Badge>
+                {/* <Badge className="bg-gradient-to-r from-purple-500 to-pink-500 text-white">Upcoming</Badge> */}
                 <Badge variant="outline" className="text-gray-300 border-gray-500">
-                  <Calendar className="h-3 w-3 mr-1" /> May 2024 - Jul 2024
+                  <Calendar className="h-3 w-3 mr-1" /> May 2025 - Jul 2025
                 </Badge>
                 <Badge variant="outline" className="text-gray-300 border-gray-500">
-                  <MapPin className="h-3 w-3 mr-1" /> Remote
+                  <MapPin className="h-3 w-3 mr-1" /> Gurgaon
                 </Badge>
               </div>
 
-              <h3 className="text-2xl font-bold text-white mb-2">Software Development Intern</h3>
+              <h3 className="text-2xl font-bold text-white mb-2">Automation Testing Intern</h3>
               <h4 className="text-xl text-purple-400 mb-4">Housing.com</h4>
 
               <p className="text-gray-300 mb-6">
-                Upcoming internship at Housing.com, one of India's leading real estate platforms. Will be working on
-                frontend development and contributing to the user experience of the platform.
+                Created and modified automated test cases for web and mobile applications using WebdriverIO and Appium, enhancing test coverage and reliability.
               </p>
 
               <div className="space-y-2">
@@ -73,7 +72,7 @@ export function ExperienceSection() {
                     <CheckCircle className="h-4 w-4 text-purple-400" />
                   </div>
                   <p className="text-gray-300">
-                    Will be working on scalable application features using modern frontend technologies
+                    Collaborated with the QA team to identify test scenarios and debug issues
                   </p>
                 </div>
                 <div className="flex items-start">
@@ -81,14 +80,8 @@ export function ExperienceSection() {
                     <CheckCircle className="h-4 w-4 text-purple-400" />
                   </div>
                   <p className="text-gray-300">
-                    Will be collaborating with cross-functional teams to deliver high-quality user interfaces
+                    Ensured seamless CI/CD pipeline integration for automated testing
                   </p>
-                </div>
-                <div className="flex items-start">
-                  <div className="h-6 w-6 rounded-full bg-purple-500/20 flex items-center justify-center flex-shrink-0 mt-0.5 mr-3">
-                    <CheckCircle className="h-4 w-4 text-purple-400" />
-                  </div>
-                  <p className="text-gray-300">Will be implementing responsive designs and optimizing performance</p>
                 </div>
               </div>
             </div>
@@ -110,7 +103,7 @@ export function ExperienceSection() {
             <div className="ml-16 md:ml-0 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-purple-500/50 transition-all duration-300">
               <div className="flex flex-wrap gap-3 mb-4">
                 <Badge variant="outline" className="text-gray-300 border-gray-500">
-                  <Calendar className="h-3 w-3 mr-1" /> May 2023 - Jul 2023
+                  <Calendar className="h-3 w-3 mr-1" /> May 2024 - Jul 2024
                 </Badge>
                 <Badge variant="outline" className="text-gray-300 border-gray-500">
                   <MapPin className="h-3 w-3 mr-1" /> Gurgaon
