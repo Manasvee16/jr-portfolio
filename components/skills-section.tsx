@@ -13,10 +13,21 @@ export function SkillsSection() {
   }
 
   const skills = {
-    frontend: ["React.js", "Next.js", "Tailwind CSS", "TypeScript", "Flutter"],
-    languages: ["JavaScript", "C++", "Java", "Python", "C"],
-    tools: ["Visual Studio", "Eclipse", "Vercel", "Prisma", "Firebase"],
-    concepts: ["Data Structures", "Algorithms", "OOP", "REST APIs", "Prompt Engineering"],
+    frontend: [
+      "React.js", "Next.js", "Tailwind CSS", "TypeScript", "Flutter",
+      "WebdriverIO", "Appium"
+    ],
+    languages: [
+      "JavaScript", "C++", "Java", "Python", "C"
+    ],
+    tools: [
+      "Visual Studio", "Eclipse", "Vercel", "Prisma", "Firebase",
+      "CI/CD Pipeline"
+    ],
+    concepts: [
+      "Data Structures", "Algorithms", "OOP", "REST APIs", "Prompt Engineering",
+      "Drizzle ORM", "PostgreSQL", "Xata", "BunnyCDN"
+    ],
   }
 
   const [animatedSkills, setAnimatedSkills] = useState(skills.frontend)
