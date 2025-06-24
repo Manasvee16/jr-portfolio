@@ -77,13 +77,13 @@ export function AboutSection() {
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-purple-500/50 transition-all duration-300 flex flex-col items-center justify-center text-center">
                 <Briefcase className="h-8 w-8 text-purple-400 mb-3" />
                 <h4 className="font-semibold text-white">Experience</h4>
-                <p className="text-xs text-gray-400 mt-1">SDE Intern at Housing.com</p>
+                <p className="text-xs text-gray-400 mt-1">Ex-SDE Intern at Housing.com, Ex-SDE Intern at SalarySe</p>
               </div>
 
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-purple-500/50 transition-all duration-300 flex flex-col items-center justify-center text-center">
                 <GraduationCap className="h-8 w-8 text-pink-400 mb-3" />
                 <h4 className="font-semibold text-white">Education</h4>
-                <p className="text-xs text-gray-400 mt-1">B.Tech at VIT (CGPA: 8.1)</p>
+                <p className="text-xs text-gray-400 mt-1">B.Tech at VIT (CGPA: 8.05)</p>
               </div>
             </div>
           </motion.div>
