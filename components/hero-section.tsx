@@ -85,8 +85,7 @@ export function HeroSection() {
           transition={{ delay: 0.9, duration: 0.8 }}
           className="mt-6 text-gray-400 max-w-2xl mx-auto"
         >
-          Computer Science Engineering student at VIT with a passion for frontend development. Upcoming SDE Intern at
-          Housing.com.
+          Computer Science Engineering student at VIT with a passion for frontend development. 
         </motion.p>
 
         <motion.div
