@@ -1,0 +1,32 @@
+# https://www.robotstxt.org/robotstxt.html
+
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Important pages
+Allow: /index.html
+Allow: /about
+Allow: /projects
+Allow: /experience
+Allow: /skills
+Allow: /achievements
+Allow: /contact
+
+# Prevent crawling of unnecessary paths
+Disallow: /_next/
+Disallow: /api/
+Disallow: /static/images/
+Disallow: /*.json$
+Disallow: /*_buildManifest.js$
+Disallow: /*_ssgManifest.js$
+Disallow: /*_middlewareManifest.js$
+Disallow: /*_app.js$
+Disallow: /_error
+Disallow: /404
+
+# Crawl delay
+Crawl-delay: 10
+
+# Sitemap
+Sitemap: https://manasvee-portfolio.com/sitemap.xml
